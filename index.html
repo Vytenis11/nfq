@@ -1,0 +1,119 @@
+<html lang="lt"><head>
+  <meta charset="UTF-8">
+  <title>Užduotis NR 2</title>
+  <script src="list.js"></script>
+  <link href="semantic.min.css" rel="stylesheet" type="text/css" />
+  <link href="style2.css" rel="stylesheet" type="text/css" /> 
+  
+</head>
+<body>
+<div id="subheader">
+<div class="container">
+<p>Sodo prekės</p>
+
+<a href="orders.html">Krepšelis</a> 
+</div>
+</div>
+<!--==main header==-->
+<div id="main-header">
+<!--logo-->
+<div id="logo"> 
+<span id="ist">S</span><span id="iist">odo</span>
+</div>
+<!--==button==-->
+<div id="users">
+  <input class="search" placeholder="įveskite">
+  <button class="sort" data-sort="name">
+    Rušiuoti
+  </button>
+<!--==list==-->
+  <ul class="list"></ul>
+  <ul class="pagination"></ul>
+  
+</div>
+
+    <script>
+      var options = {
+  valueNames: [ 'name', 'born' ],
+  item: '<li><h3 class="name"></h3><p class="born"></p></li>',
+  page: 5,
+  pagination: true
+};
+
+    var values = [{
+    name: 'Žalias stulpas',
+    born: 9,60
+  },
+  {
+    name: 'Sandėliavimo lentyna',
+    born: 22,74
+  },
+  {
+    name: 'Žemės',
+    born: 92
+},
+{
+    name: 'Durpės',
+    born: 259
+  },
+  {
+    name: 'Grėblys',
+    born: 255
+  },
+  {
+    name: 'Kastuvas',
+    born: 55
+},
+{
+    name: 'Pjūklas',
+    born: 54
+  },
+  {
+    name: 'Šakės',
+    born: 765
+  },
+  {
+    name: 'Tvora',
+    born: 5
+},
+{
+    name: 'Kurmiagaudis',
+    born: 564
+  },
+  {
+    name: 'Arklas',
+    born: 09
+  },
+  {
+    name: 'Botai',
+    born: 8
+},
+{
+    name: 'Azotinės trąšos',
+    born: 54
+  },
+  {
+    name: 'Peroksidas',
+    born: 1
+  },
+  {
+    name: 'Pomidorų sėklos',
+    born: 4
+},
+{
+    name: 'Obuolių sodinukai',
+    born: 4
+  },
+  {
+    name: 'Agurkų sėklos',
+    born: 76
+  },
+  {
+    name: 'Tulpių svogūnėliai',
+    born: 13
+}];
+
+var userList = new List('users', options, values);
+    </script>
+
+ </body></html>

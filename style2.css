@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+.pagination li {
+  display:inline-block;
+  padding:5px;
+}
+@charset "UTF-8";
+.css {
+}
+.container{width:90%;
+margin:0 auto}
+#subheader{
+	width:100%;
+	height:60px;
+	background: green;
+	color:black;
+	margin-top:2px;
+}
+#subheader p{
+	float:left;
+	margin-top:10px;
+	height:34px;
+	font-size:22px;
+	font-style:bold;
+	font-family:"Arial";
+}
+#subheader a{
+	float:right;
+	color:black;
+	font-size:22px;
+	margin-left:30px;
+	margin-top:15px;
+	font-family:"Arial";
+}
+#subheader a:hover{
+color:rgb(0,0,0);
+transition:all .7se ease;	
+}
+	/*logo styling*/
+	#main-header{
+		width:100%;
+		height:100px;
+		background:yellow;
+		float:left;
+		margin-top:-15px;
+	}
+		#logo{
+			width:5px;
+			margin-top:27px;
+			float:left;
+			font-style:Bold;
+			margin-top:41px;
+			}
+		#ist{
+			color:green;
+			font-size:45px;
+			font-weight:bold;
+			margin-left:19px;
+			font-family:"Arial";
+		}
+		#iist{
+			color:green;
+			font-size:35px;
+			font-weight:bold;
+			font-family:"Arial";
+			}
+			/*searching area styling*/
+			#users{
+				width:650px;
+				float:left;
+				padding:43px;
+				margin-left:75px;
+				}
+				.sort{
+				height: 25px;
+			border: none;
+			margin-left:20px;
+			border-radius: 10px;
+			float:left;
+			padding-left:6px;
+			color:rgb(50,141,241);
+			background-color:rgb(165,165,165);
+			}
+			
+				
+			.search{
+				height: 25px;
+			border: none;
+			border-radius: 10px;
+			float:left;
+			padding-left:15px;
+			}
+			
+.list{
+			color:rgb(0,0,0);
+			font-size:10px;
+			font-weight:bold;
+			margin-left:-80px;
+			margin-top:80px;
+			font-family:"Arial"	
+			}
+.name{
+			color:rgb(0,0,0);
+			margin-top:100px;
+			font-size:20px;
+			font-weight:bold;
+			margin-left:0px;
+			
+			font-family:"Arial"	
+			}
+			
+.born{
+			color:rgb(0,0,0);
+			font-size:15px;
+			font-weight:lighter;
+			margin-left:0px;
+			margin-top:-15px;
+			font-family:"Arial"	
+			}
+			
+.pagination{
+			color:rgb(0,0,0);
+			font-size:15px;
+			margin-left:-120px;
+			margin-top:15px;
+			font-family:"Arial"	
+			}
+			
+			
+
