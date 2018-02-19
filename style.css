@@ -14,3 +14,19 @@ margin:0 auto}
 	color:black;
 	margin-top:2px;
 }
+#subheader p{
+	float:left;
+	margin-top:10px;
+	height:34px;
+	font-size:22px;
+	font-style:bold;
+	font-family:"Arial";
+}
+#subheader a{
+	float:right;
+	color:black;
+	font-size:22px;
+	margin-left:30px;
+	margin-top:15px;
+	font-family:"Arial";
+}
